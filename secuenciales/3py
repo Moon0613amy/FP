@@ -1,0 +1,12 @@
+#Total recorrido en metros y yardas
+km=input("Ingrese km:")
+pies=input("Ingrese pies:")
+millas=input("Ingrese millas:")
+m1=((int(km))*1000)
+m2=((int(pies))*3.2808)
+m3=((int(millas))*1609)
+print("m1:"+str(m1))
+print("m2:"+str(m2))
+print("m3:"+str(m3))
+total=(int(m1)+int(m2)+int(m3))
+print("Total de metros:"+str(total))
