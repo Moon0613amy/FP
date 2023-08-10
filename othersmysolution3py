@@ -1,0 +1,15 @@
+kilometros=int(input("Kilometros:"))
+pies=int(input("Pies:"))
+millas=int(input("Millas:"))
+
+metros1=kilometros*1000
+metros2=pies/3.2808
+metros3=millas/1609
+total= (int(metros1)+int(metros2)+int(metros3))
+yardas= total*7
+
+print(f" Metros1={format(metros1,'.2f')}")
+print(f" Metros2={format(metros2,'.2f')}")
+print(f" Metros3={format(metros3,'.2f')}")
+print(f" Total metros={format(total,'.2f')}")
+print(f" Yardas={format(metros1,'.2f')}")
