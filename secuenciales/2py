@@ -1,0 +1,10 @@
+#CONVERTIR METROS A CM,PG,PIES,YD
+m=input("Ingrese metros:")
+cm=((int(m))*100)
+pg=((int(m))*39.3701)
+pies=((int(m))*3.28084)
+yd=((int(m))*1.09361)
+print("Centimetros:"+str(cm))
+print("Pulgadas:"+str(pg))
+print("Pies:"+str(pies))
+print("Yardas:"+str(yd))
