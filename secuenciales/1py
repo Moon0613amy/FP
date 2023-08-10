@@ -1,0 +1,9 @@
+#CALCULANDO PORCENTAJE DE VARONES Y MUJERES
+nroV=input("NUMERO DE VARONES:")
+nroM=input("NUMERO DE MUJERES:")
+total=int(nroV)+int(nroM)
+print("TOTAL DE ALUMNOS:"+str(total))
+porcV=(int(nroV)/(int(nroV)+int(nroM)))*100
+print("PORCENTAJE DE VARONES:"+str(porcV))
+porcM=(int(nroM)/(int(nroV)+int(nroM)))*100
+print("PORCENTAJE DE MUJERES:"+str(porcM))
