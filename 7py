@@ -1,0 +1,8 @@
+base=int(input("base:"))
+altura=int(input("altura:"))
+
+area=base*altura
+perimetro=2*(base+altura)
+
+print(f"Area={format(area,'.2f')}u2")
+print(f"Perimetro={format(perimetro,'.2f')}u2")
