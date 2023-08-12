@@ -1,7 +1,7 @@
 #Conversion a MB,KB,B
 GB=input("Ingrese GB:")
 MB=((int(GB)*1024))
-KB=((int(GB)*1))
+KB=((int(GB)*1024))
 B=((int(GB)*1024))
 print("MB:"+str(MB))
 print("KB:"+str(MB))
