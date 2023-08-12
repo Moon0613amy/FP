@@ -1,0 +1,7 @@
+gigas= int( input( "Gigas:" ) )
+KB= gigas*1024
+MB= 1024*gigas
+B = gigas*1024
+print(f" Kilobytes= {format(KB,'.2f')}")
+print(f" Megabytes= {format(MB,'.2f')}")
+print(f" Bytes    = {format(B ,'.2f')}")          
