@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+valordea=int(input("valor a:"))
+valordeb=int(input("valor b:"))
+valordec=int(input("valor c:"))
+
+valorb=valordea*valordec
+psolucion=-(+valordec)
+ssolucion=-(valordeb-valordec)
+
+print( f"prima solucion={format(psolucion,'.2f')}" )
+print( f"segunda solucion={format(ssolucion,'.2f')}" ) 

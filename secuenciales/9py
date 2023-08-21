@@ -1,0 +1,15 @@
+import os
+os.system("cls")
+
+#numero entero positivo 4 cifras
+
+numero = int( input( "Numero: ") )
+
+C1 = int( input( "1C: " ) )
+C2 = int( input( "2C: " ) )
+C3 = int( input( "3C: " ) )
+C4 = int( input( "4C: " ) )
+
+sumacifras=C1+C2+C3+C4
+
+print( f"Suma cifras={format(sumacifras,'.2f')}" )      

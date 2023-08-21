@@ -1,0 +1,27 @@
+import os
+os.system("cls")
+
+dinero=int(input("Dinero:"))
+
+#billetes
+
+b200=dinero/200
+b100=dinero/100
+b50=dinero/50
+b20=dinero/20
+b10=dinero/10
+
+#monedas
+
+m5=dinero/5
+m2=dinero/2
+m1=dinero/1
+
+print(f"Billetes 200={format(b200,'.2f')}soles")
+print(f"Billetes 100={format(b100,'.2f')}soles")
+print(f"Billetes 50={format(b50,'.2f')}soles")
+print(f"Billetes 20={format(b20,'.2f')}soles")
+print(f"Billetes 10={format(b10,'.2f')}soles")
+print(f"Monedas 5={format(m5,'.2f')}soles")
+print(f"Monedas 2={format(m2,'.2f')}soles")
+print(f"Monedas 1={format(m1,'.2f')}soles")

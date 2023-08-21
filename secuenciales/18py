@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+compra=int(input("Compra:"))
+
+importecompra=(compra*25)/100
+descuento=(compra/15)/100
+impuestopagar=((importecompra-descuento)*15)/100
+
+print(f"Importe de Compra={format(importecompra,'.2f')}soles")
+print(f"Descuento={format(descuento,'.2f')}soles")
+print(f"Importe a pagar={format(impuestopagar,'.2f')}soles")
+

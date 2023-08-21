@@ -1,0 +1,15 @@
+import os
+os.system("cls")
+
+donacion=int(input("Donacion: "))
+
+centrosalud=(donacion*25)/100
+comedorinfantil=(centrosalud*35)/100
+escuelainfantil=(comedorinfantil*25)/100
+asiloancianos=(escuelainfantil*15)/100
+
+print(f"Centro de Salud={format(centrosalud,'.2f')}soles")
+print(f"Comedor Infantil={format(comedorinfantil,'.2f')}soles")
+print(f"Escuela Infantil={format(escuelainfantil,'.2f')}soles")
+print(f"Asilo de Ancianos={format(asiloancianos,'.2f')}soles")
+    

@@ -1,0 +1,18 @@
+import os
+os.system("cls")
+
+
+juan=int(input("Juan: "))
+rosa=int(input("Rosa: "))
+daniel=int(input("Daniel: "))
+
+juan=juan
+rosa=rosa
+daniel=daniel*3
+
+totalcapital=juan+rosa+daniel
+aporte=(totalcapital/3)/100
+
+print(f"Total Capital = {format(totalcapital,'.2f')}soles")
+print(f"Total cada uno = {format(aporte,'.2f')}%")
+               

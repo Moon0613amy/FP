@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+tarifabancaria=int(input("Tarifa Bancaria: "))
+horastrabajadas=int(input("Horas Trabajadas: "))
+
+sueldobasico=tarifabancaria*horastrabajadas
+sueldobruto=sueldobasico/20
+sueldoneto=(sueldobruto+sueldobasico)/10
+
+print(f"Sueldo basico={format(sueldobasico,'.2f')}soles")
+print(f"Sueldo bruto={format(sueldobruto,'.2f')}soles")
+print(f"Sueldo neto={format(sueldoneto,'.2f')}soles")

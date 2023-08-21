@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+#numero natural 4 cifras
+
+numero=int(input("Numero:"))
+cifras=int(input("cantidad cifras:"))
+
+if cifras>=2:
+
+    numeroinvertido=str(numero)[::-1]
+    print("Numero invertido: ",numeroinvertido)
+

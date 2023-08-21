@@ -1,0 +1,15 @@
+import os
+os.system("cls")
+
+sueldobasico=int(input("Sueldo Basico: "))
+totalvendido=int(input("Total Vendido: "))
+
+comision=(totalvendido*9)/100
+sueldobruto=sueldobasico+comision
+descuento=(sueldobasico*11)/100
+sueldoneto=sueldobasico+descuento
+
+print(f"Comision={format(comision,'.2f')}soles")
+print(f"Sueldo Bruto={format(sueldobruto,'.2f')}soles")
+print(f"Descuento={format(descuento,'.2f')}soles")
+print(f"Sueldo Neto={format(sueldoneto,'.2f')}soles")

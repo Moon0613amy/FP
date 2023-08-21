@@ -12,4 +12,4 @@ print("% Varones", pVarones)
 print("% Mujeres", pMujeres)
 
 print(f"% Varones={format(pVarones,'.2f')}%")
-print(f"% Mujeres={ format(pVarones,'.2f')}%")
+print(f"% Mujeres={format(pMujeres,'.2f')}%")

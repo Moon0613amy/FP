@@ -1,0 +1,16 @@
+import os
+os.system("cls")
+
+#numero 3 cifras
+Numero=int(input("pNumero: "))
+cifras=int(input("cantidad cifras:"))
+
+if cifras>=3:
+    numeroinvertido=str(Numero)[::-2]
+    print("Numero invertido1:",numeroinvertido)
+
+Numero=int(input("sNumero: "))
+cifras=int(input("cantidad cifras:"))
+if cifras>=3:
+    numeroinvertido=str(Numero)[::-2]
+    print("Numero invertido2:",numeroinvertido)
