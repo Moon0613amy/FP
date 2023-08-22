@@ -14,4 +14,6 @@ else : print("Error el numero de 1..7")
 
 dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"]
 if numero in range(1,8) : print( dias[numero - 1] )
+if numero > 0 and numero < 8 : print( dias[numero - 1] )
+if numero >= 1  and numero <= 7 : print( dias[numero - 1] )
 else : print("Error el numero de 1..7")
