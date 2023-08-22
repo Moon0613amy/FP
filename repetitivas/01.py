@@ -10,4 +10,4 @@ while dividendo >= divisor :
     cociente += 1
 
 print( f"Cociente : {cociente}" )
-print( f"Residuo : {dividendo}" )    
+print( f"Residuo : {dividendo}" )  
