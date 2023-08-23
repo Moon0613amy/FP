@@ -1,6 +1,11 @@
+import os
+os.system("cls")
+
 #CALCULANDO PORCENTAJE DE VARONES Y MUJERES
+
 nroV=input("NUMERO DE VARONES:")
 nroM=input("NUMERO DE MUJERES:")
+
 total=int(nroV)+int(nroM)
 print("TOTAL DE ALUMNOS:"+str(total))
 porcV=(int(nroV)/(int(nroV)+int(nroM)))*100

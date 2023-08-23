@@ -1,10 +1,17 @@
+import os
+os.system("cls")
+
 #Estatura inglesa en metros
-estatura=input("Ingrese estatura:")
-pies=input("Ingrese pies:")
-pg=input("Ingrese pulgada:")
+
+estatura=input("Ingrese estatura: ")
+pies=input("Ingrese pies: ")
+pg=input("Ingrese pulgada: ")
+
 pg=((int(pies)*39.37))
 pies=((int(pg)*3.281))
+
 print("m1:"+str(pg))
 print("m2:"+str(pies))
+
 total=((int(pg)+int(pies))/100)
 print("Altura:"+str(total))
